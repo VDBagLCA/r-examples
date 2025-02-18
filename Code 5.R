@@ -70,7 +70,7 @@ fish_3sp <- fish %>%
 # AND the site is Arroyo Quemado (“aque”) as follows:
 
 aque_2018 <- fish %>% 
-  filter(year == 2018 & site == "aque")
+  filter(year == 2018 | site == "aque")
 
 # Filter by a partial pattern
 
